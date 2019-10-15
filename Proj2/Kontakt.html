@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8">
+    <title>TRANSDOP</title>
+    <link rel="stylesheet" type="text/css" href="style_kontakt.css">
+    <link rel="icon" href="img/icon_iqG_icon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="header">
+    <a href="http://www.stud.fit.vutbr.cz/~xsesta06/" class="LOGO"><h1 id="LOGO">TRANSDOP</h1></a>
+    <div id="menu">
+      <ul>
+        <li class="main-menu-item" ><a href="index.html">O nás</a></li>
+        <li class="main-menu-item" ><a href="Doprava.html">Doprava</a></li>
+        <li class="main-menu-item" ><a href="Logistika.html">Logistika a skladovanie</a></li>
+        <li class="main-menu-item" ><a href="Kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+  </div>
+  <script>
+    window.onscroll = function() {fce()};
+    var menu = document.getElementById("menu");
+    var sticky = menu.offsetTop;
+    function fce(){
+      if(window.pageYOffset >= sticky) {
+        menu.classList.add("sticky")
+      } else {
+        menu.classList.remove("sticky");
+      }
+    } 
+  </script>
+  <div class="main-background">
+    <div class="main">
+      <div class="firma">
+        <ul>
+          <li>TRANSDOP s.r.o.</li>
+          <li>Dúbravica 31, 976 33 Dúbravica</li>
+          <li>IČ: 01234567</li>
+          <li>DIČ: 987654321</li>
+          <li>IČ DPH: SK987654321</li>
+          <li>e-mail: <a href="mailto:info@transdop.eu">info@transdop.eu</a></li>
+        </ul>
+      </div>
+      
+      <div class="zamestnanec">
+        <ul>
+          <li>Ladislav Neznámy</li>
+          <li>konateľ, prevádzkový riaditeľ</li>
+          <li>mobil: +421 909 009 009</li>
+          <li>e-mail: <a href="mailto:neznamy@transdop.eu">neznamy@transdop.eu</a></li>
+        </ul>
+      </div>
+      
+      <div class="zamestnanec">
+        <ul>
+          <li>Zdeněk Nájomný</li>
+          <li>konateľ, obchodný riaditeľ</li>
+          <li>mobil: +421 879 036 012</li>
+          <li>e-mail: <a href="mailto:najomny@transdop.eu">najomny@transdop.eu</a></li>
+        </ul>
+      </div>
+      
+      <div class="zamestnanec">
+        <ul>
+          <li>Lucia Čierna</li>
+          <li>fakturácia, pohľadávky</li>
+          <li>mobil: +421 907 007 007</li>
+          <li>e-mail: <a href="mailto:cierna@transdop.eu">cierna@transdop.eu</a></li>
+        </ul>
+      </div>
+      
+    </div>  
+  </div>
+  <footer>
+    <div class="footer-background">
+      <div class="footer-text">
+        Copyright © Šimon Šesták <br>
+        Chyby a nedostatky webových stránok nahláste prosím na e-mail:  <a href="mailto:info@transdop.eu?subject=feedback">info@transdop.eu</a>
+      </div>
+      
+      <div class="footer-menu">
+        <ul>
+          <li class="footer-menu-item" ><a href="index.html">O nás</a></li>
+          <li class="footer-menu-item" ><a href="Doprava.html">Doprava</a></li>
+          <li class="footer-menu-item" ><a href="Logistika.html">Logistika a skladovanie</a></li>
+          <li class="footer-menu-item" ><a href="Kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
